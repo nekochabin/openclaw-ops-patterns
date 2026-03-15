@@ -11,6 +11,20 @@ This repository contains **public, privacy-safe operational patterns and skill t
 
 ## Contents
 
+### Included (current)
+
+- **Gmail A1 triage**
+  - Template: `templates/gmail_a1_triage.md`
+  - Skill skeleton: `skills/gmail-a1-triage/`
+- **Google Sheets increment watch** (form responses)
+  - Template: `templates/sheets_increment_watch.md`
+  - Skill skeleton: `skills/sheets-increment-watch/`
+- Patterns
+  - `docs/patterns/safety-gate.md`
+  - `docs/patterns/memory-to-skill.md`
+
+### Folders
+
 - `docs/patterns/` — operational patterns (privacy, safety gate, monitoring)
 - `templates/` — copy-paste templates (sanitized)
 - `skills/` — skill skeletons (SKILL.md + examples)
@@ -21,6 +35,13 @@ This repository contains **public, privacy-safe operational patterns and skill t
 2. Abstract it into a reusable template
 3. Package it as a skill (inputs/outputs, procedure, failure handling)
 4. Iterate
+
+## Roadmap (ideas)
+
+- Calendar: upcoming events → concise briefing template
+- Monitoring patterns: “notify only on change”, debouncing, state files
+- Sharing patterns: safe link sharing + permission safety gate
+- More skill skeletons (still privacy-safe)
 
 ## License
 
