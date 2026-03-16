@@ -22,6 +22,7 @@ This repository contains **public, privacy-safe operational patterns and skill t
 - Patterns
   - `docs/patterns/safety-gate.md`
   - `docs/patterns/memory-to-skill.md`
+  - `docs/patterns/context-files.md`
 
 ### Folders
 
